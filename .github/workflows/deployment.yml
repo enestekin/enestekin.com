@@ -63,7 +63,7 @@ jobs:
         run: npm run test
   # Build job
   build:
-    name: Deploy
+    name: Build
     runs-on: ubuntu-latest
     needs: test
     steps:
